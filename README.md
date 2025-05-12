@@ -46,6 +46,6 @@
 3. **Compilar y ejecutar el proyecto**
 
 ## 📈 Ejemplo de Uso
-- Al iniciar la aplicación, se mostrará el tablero con el ratón y el queso en posiciones aleatorias. 
-- A medida que el ratón se mueve, sus pasos se registran y almacenan en la base de datos, permitiendo un análisis posterior de su comportamiento.
+- Al iniciar la aplicación, se mostrará el tablero con el ratón en la parte superior derecha y el queso en la posición inferior izquierda. 
+- A medida que el ratón se mueve, sus pasos se registran y almacenan en la base de datos.
  - Puedes parar el juego en cualquier momento y al realizarlo, el ratón comenzará desde la última posición registrada.
