@@ -1,6 +1,6 @@
 # 🧀 MouseCheeseGUI_BD_Full
 
-**Simulación interactiva donde un ratón inteligente busca su queso en un laberinto. Con interfaz gráfica, seguimiento de movimientos y registro en base de datos.**
+**Simulación interactiva donde un ratón inteligente busca su queso en un tablero. Con interfaz gráfica, seguimiento de movimientos y registro en base de datos.**
 
 ---
 
