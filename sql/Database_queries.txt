@@ -1,0 +1,30 @@
+CREATE SCHEMA `mouse_cheese_game` ;
+
+use mouse_cheese_game;
+
+
+CREATE TABLE `mouse_cheese_game`.`cell_data` (
+  `cell_row` INT NULL,
+  `cell_column` INT NULL,
+  `matrix` VARCHAR(45) NULL,
+  `is_cell_reserved` VARCHAR(45) NULL,
+  `is_mouse` VARCHAR(45) NULL,
+  `point` INT NULL);
+
+CREATE TABLE `mouse_cheese_game`.`point_history` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `points` INT NOT NULL,
+  PRIMARY KEY (`id`));
+
+CREATE TABLE `mouse_cheese_game`.`questions_answers` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `question` VARCHAR(1000) NOT NULL,
+  `answer` VARCHAR(1000) NOT NULL,
+  PRIMARY KEY (`id`));
+
+
+INSERT INTO `mouse_cheese_game`.`questions_answers` (`question`, `answer`) VALUES ('Di el nombre de un IDE para programar en JAVA:', 'Intellij Idea,Intellij,NetBeans,Eclipse');
+INSERT INTO `mouse_cheese_game`.`questions_answers` (`question`, `answer`) VALUES ('Diga uno de los lenguajes de programación OOP más populares', 'JAVA,C++,C#,PYTHON');
+INSERT INTO `mouse_cheese_game`.`questions_answers` (`question`, `answer`) VALUES ('¿Qué marco es el más popular para el desarrollo front-end?', 'REACT,VUE,ANGULAR');
+INSERT INTO `mouse_cheese_game`.`questions_answers` (`question`, `answer`) VALUES ('¿Qué marco es el más popular para el desarrollo de back-end?', 'SPRING,LARAVEL,NODEJS');
+

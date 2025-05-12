@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mousecheeseguigame.winController">
+   <children>
+      <Label textAlignment="CENTER" text="You win!!" style="-fx-padding: 0 0 30 0;">
+      <font>
+         <Font name="System Bold" size="25.0" />
+      </font>
+      </Label>
+      <Label fx:id="lblPoints" textAlignment="CENTER"  style="-fx-padding: 0 0 30 0;">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200"  preserveRatio="true"  >
+      <image>
+         <Image url="@images/cheeseMouse.png" />
+      </image>
+      </ImageView>
+   </children>
+</VBox>
